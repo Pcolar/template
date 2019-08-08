@@ -1,18 +1,23 @@
-# Ambient Weather to CSV
+# Templates and Tools
 
-## Insert Project Header
+## A set of templates and reusable tools and modules for ToCH Open Data development and support
 
-### Goal 
-Create a script that can...
+### Goal
 
 ### Purpose 
 
 ### Methodology 
 
-### Data Source
+### Descriptions
+####README_Template.md
+A default README file with headers
 
-### Output 
+#### Powershell_boilerplate.ps1
+A shell with examples of headers, initializations, and calling parameters
 
-### Transformations
+#### file_util.py
+Returns the reverse sorted (first) filename, given a search string and directory
 
-### Constraints
+#### set-variables.psm1
+Map a python assignment string to a session variable
+Specifically maps *secrets.py assignments to powershell global session variables
